@@ -1,0 +1,19 @@
+{
+    "name": "ilya5445/payeer-api",
+    "description": "PHP client for Payeer API",
+    "type": "library",
+    "keywords": ["API", "Payeer", "REST"],
+    "autoload": {
+        "psr-4": {
+            "Ilya5445\\PayeerApi\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "ilya5445",
+        "email": "ilya5445@yandex.ru"
+    }],
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*"
+    }
+}
